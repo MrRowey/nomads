@@ -148,8 +148,8 @@ XNL0403 = Class(NExperimentalHoverLandUnit, SlowHoverLandUnit) {
         end
     end,
 
-    --- I'm concerned what happens if this unit dies while hover on the water surface. The unit should not leave a corpse.
-    --- If WOF is available the unit cloud/should sink to the bottom under the WOF effect.
+    --- The unit should not leave a corpse if it dies while hovering on the water surface.
+    --- If WOF is available the unit sinks to the bottom under the WOF effect.
     ---@param self XNL0403
     ---@param overkillRatio number
     ---@param instigator Unit
